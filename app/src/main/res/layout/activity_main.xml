@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_nate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF7E7E"
+        android:text="네이트 홈페이지 열기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_911"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ECBC5C"
+        android:text="911 응급전화 걸기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_nate" />
+
+    <Button
+        android:id="@+id/btn_fun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C9FF9A"
+        android:text="반갑습니다."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_911" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#65FFED"
+        android:text="끝내기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_fun" />
+
+    <Button
+        android:id="@+id/btn_aa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9C9C"
+        android:backgroundTint="#F87070"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_exit" />
+</androidx.constraintlayout.widget.ConstraintLayout>
